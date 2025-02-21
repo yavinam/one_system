@@ -48,7 +48,7 @@ const About = () => {
     >
       <div className="absolute inset-0 lg:hidden">
         <Image
-          src="/bg.png"
+          src="/back-1.jpg"
           alt="About background"
           fill
           className="object-cover object-center opacity-10"
@@ -72,7 +72,7 @@ const About = () => {
           className="relative group hidden lg:block"
         >
           <Image
-            src="/yellow.png"
+            src="/back-1.jpg"
             alt="Background image"
             width={800}
             height={800}

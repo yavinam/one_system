@@ -1,7 +1,7 @@
 "use client";
 import ContactForm from "@/components/custom/contact-form";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const Contact = () => {
   return (
     <motion.section
@@ -19,13 +19,12 @@ const Contact = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <video
-          src="/video/black.mov"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="object-cover w-full h-full"
+        <Image
+          src="/back-2.jpg"
+          alt="image"
+          layout="fill" 
+          objectFit="cover" 
+          className="w-full h-full object-cover"
         />
 
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/30 to-transparent" />
