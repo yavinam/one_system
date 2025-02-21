@@ -44,7 +44,7 @@ const About = () => {
       id="about"
       aria-label="About Us"
       ref={ref}
-      className="relative flex flex-col flex-1 min-h-screen items-center justify-center py-12 lg:py-0 overflow-hidden bg-slate-950"
+      className="relative flex flex-col flex-1 min-h-screen items-center justify-center py-12 lg:py-0 overflow-hidden bg-black"
     >
       <div className="absolute inset-0 lg:hidden">
         <Image

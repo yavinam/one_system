@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <motion.footer
-      className="flex flex-col items-center justify-center py-6 md:py-12 bg-zinc-900 relative overflow-hidden text-center"
+      className="flex flex-col items-center justify-center py-6 md:py-12 bg-black relative overflow-hidden text-center"
       aria-label="Footer"
     >
       <h2 className=" text-[40px] md:text-[140px] font-extrabold tracking-tight bg-gradient-to-r from-zinc-800 to-yellow-500 bg-clip-text text-transparent">
