@@ -5,7 +5,7 @@ import Contact from "@/components/custom/contact";
 import Footer from "@/components/custom/footer";
 export default function Home() {
   return (
-    <main className="w-full h-full">
+    <main className="w-full h-full pt-[72px] md:pt-[88px] lg:pt-[96px] bg-black">
       <Hero />
       <About />
       <Work />
