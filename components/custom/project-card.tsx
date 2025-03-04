@@ -18,7 +18,7 @@ const ProjectCard = ({
   return (
     <motion.div
       key={project.id}
-      className="relative overflow-hidden rounded-lg cursor-pointer w-full h-[500px] shadow-xl"
+      className="relative overflow-hidden rounded-lg cursor-pointer w-full shadow-xl"
       animate={
         hoveredId === null
           ? { transform: "scale(1)" }
